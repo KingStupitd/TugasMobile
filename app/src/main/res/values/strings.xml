@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App Test</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logo_description">Logo aplikasi</string>
+    <string name="welcome_user">Selamat datang, %1$s!</string>
+    <string name="welcome_placeholder">Selamat datang</string>
+
+    <!-- Strings untuk top bar -->
+    <string name="search_hint">Cari sesuatu...</string>
+    <string name="notif">Notifikasi</string>
+    <string name="setting">Setelan</string>
+
+    <!-- Strings untuk item_product layout -->
+    <string name="product_image_desc">Gambar produk</string>
+    <string name="product_name_placeholder">Nama Produk</string>
+    <string name="product_price_placeholder">Rp 0</string>
+    <string name="rating_placeholder">4.5</string>
+    <string name="review_count_placeholder">(%1$d)</string>
+    <string name="product_brand_placeholder">BRAND</string>
+    <string name="share">Bagikan</string>
+    <string name="review_count_format">(%1$d)</string>
+    <string name="open_in_browser">Buka di browser</string>
+    <string name="availability_label">HANYA TERSEDIA DI TOKO INI</string>
+</resources>
