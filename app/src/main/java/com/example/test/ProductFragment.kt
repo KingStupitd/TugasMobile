@@ -14,7 +14,6 @@ class ProductFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate layout fragment_product.xml
         return inflater.inflate(R.layout.fragment_product, container, false)
     }
 

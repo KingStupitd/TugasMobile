@@ -46,21 +46,18 @@ class HomeActivity : AppCompatActivity() {
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {
-                    // HomeFragment: tampilan ringkasan atau dashboard
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainer, HomeFragment())
                         .commit()
                     true
                 }
                 R.id.nav_product -> {
-                    // ProductFragment: menampilkan grid produk seperti sebelumnya
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainer, ProductFragment())
                         .commit()
                     true
                 }
                 R.id.nav_account -> {
-                    // AccountFragment: halaman akun pengguna
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainer, AccountFragment())
                         .commit()
@@ -70,7 +67,7 @@ class HomeActivity : AppCompatActivity() {
             }
         }
 
-        // Set default menu selection ke Product agar aplikasi menampilkan produk seperti sebelumnya
+        // Set default menu
         if (savedInstanceState == null) {
             bottomNav.selectedItemId = R.id.nav_product
         }
