@@ -36,9 +36,11 @@ class MainActivity : AppCompatActivity() {
             if (toggleRegisterText) {
                 judul.text = "Register"
                 buttonreg.text = "Sudah punya akun? Login"
+                loginButton.text = "Register"
             } else {
                 judul.text = "Login"
-                buttonreg.text = "Sudah punya akun? Register"
+                buttonreg.text = "Belum punya akun? Register"
+                loginButton.text = "Login"
             }
         }
 
